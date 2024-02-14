@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@esm/index.mjs';
+import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@v0.2.0-esm/index.mjs';
 ```
 
 #### isComplex128MatrixLike( value )
@@ -77,7 +77,7 @@ var bool = isComplex128MatrixLike( arr );
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@esm/index.mjs';
+import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@v0.2.0-esm/index.mjs';
 
 var buffer = new Complex128Array( [ 0, 0, 0, 0, 0, 0, 0, 0 ] );
 var arr = ndarray( 'complex128', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
