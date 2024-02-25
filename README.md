@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@deno/mod.js';
+import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@v0.2.1-deno/mod.js';
 ```
 
 #### isComplex128MatrixLike( value )
@@ -72,7 +72,7 @@ var bool = isComplex128MatrixLike( arr );
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@deno/mod.js';
+import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@v0.2.1-deno/mod.js';
 
 var buffer = new Complex128Array( [ 0, 0, 0, 0, 0, 0, 0, 0 ] );
 var arr = ndarray( 'complex128', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
