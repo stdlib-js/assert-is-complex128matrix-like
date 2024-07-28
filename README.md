@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-complex128matrix-like/tags). For example,
+
+```javascript
 import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@v0.2.2-esm/index.mjs';
 ```
 
@@ -77,7 +82,7 @@ var bool = isComplex128MatrixLike( arr );
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@v0.2.2-esm/index.mjs';
+import isComplex128MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128matrix-like@esm/index.mjs';
 
 var buffer = new Complex128Array( [ 0, 0, 0, 0, 0, 0, 0, 0 ] );
 var arr = ndarray( 'complex128', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
