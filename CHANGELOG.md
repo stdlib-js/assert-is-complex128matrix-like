@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-05-24)
+
+<section class="features">
+
+### Features
+
+-   [`9800ea5`](https://github.com/stdlib-js/stdlib/commit/9800ea55ea746c6060bf938106f25e425feccd8c) - add support for data type objects
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,10 @@
 
 <details>
 
+-   [`bb75404`](https://github.com/stdlib-js/stdlib/commit/bb7540474697c4bb0e99b2f994884b4738d89d1d) - **test:** update assertion message _(by Athan Reines)_
+-   [`00c05b8`](https://github.com/stdlib-js/stdlib/commit/00c05b86d109b52c93f161dbc6f1a72786b5e22f) - **docs:** simplify examples _(by Athan Reines)_
+-   [`b4f8a7a`](https://github.com/stdlib-js/stdlib/commit/b4f8a7a068fc0807ab676524d89af2a20d8e773b) - **bench:** simplify ndarray creation _(by Athan Reines)_
+-   [`9800ea5`](https://github.com/stdlib-js/stdlib/commit/9800ea55ea746c6060bf938106f25e425feccd8c) - **feat:** add support for data type objects _(by Athan Reines)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https:-/github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
 
 </details>
@@ -24,8 +38,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 
 </section>
